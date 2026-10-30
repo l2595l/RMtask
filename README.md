@@ -17,9 +17,19 @@ Submit rm tasks
 RMtask
 ├── task1
 │   └── environment                  # 任务一：相关环境配置
+├── task2
+│   └── cpp
+│       ├── 1                        # 入门一（洛谷【入门1】顺序结构）
+│       └── 2                        # 入门二（洛谷【入门2】分支结构）
 ├── task3
+│   ├── cpp
+│   │   ├── 3                        # 入门三（洛谷【入门3】循环结构）
+│   │   └── 4                        # 入门四（洛谷【入门4】数组）
 │   └── ros
 │       └── hello_world_node         # 任务三：ROS2 node 输出 Hello World
+├── task4
+│   └── cpp
+│       └── 6                        # 入门六（洛谷【入门6】函数与结构体）
 ├── task5
 │   ├── 01_topic_custom_msg          # 任务五-1：话题 + 自定义消息（物品信息发布/订阅）
 │   ├── 02_service_custom_srv        # 任务五-2：服务 + 自定义服务接口（斐波那契）
@@ -32,7 +42,9 @@ RMtask
 | 任务 | 内容 | 截图 / 记录 |
 | --- | --- | --- |
 | 任务一 | Ubuntu 系统安装、命令行、GitHub 登录、`colcon build` 编译工作空间 | [task1/environment](./task1/environment/README.md) |
-| 任务三 | ROS2 node 编写与运行，节点打印 `Hello World` | [task3/ros/hello_world_node](./task3/ros/hello_world_node/README.md) |
+| 任务二 | 洛谷【入门1】顺序结构 5/15、【入门2】分支结构 5/18 | [task2](./task2/README.md) |
+| 任务三 | 洛谷【入门3】循环结构 5/21、【入门4】数组 5/20；ROS2 node 输出 Hello World | [task3](./task3/README.md) |
+| 任务四 | C++ 类与对象；洛谷【入门6】函数与结构体 6/15 | [task4](./task4/README.md) |
 | 任务五-1 | 自定义消息（物品 ID + 基本信息），发布者发布、订阅者接收并打印 | [task5/01_topic_custom_msg](./task5/01_topic_custom_msg/README.md) |
 | 任务五-2 | 自定义服务接口，服务端与客户端交替输出斐波那契数列（10 项） | [task5/02_service_custom_srv](./task5/02_service_custom_srv/README.md) |
 | 任务五-3 | 自定义动作接口，动作服务端反馈进度并返回最终序列 | [task5/03_action_custom_action](./task5/03_action_custom_action/README.md) |
