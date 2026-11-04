@@ -34,14 +34,14 @@ RMtask
 │   ├── 01_topic_custom_msg          # 任务五-1：话题 + 自定义消息（物品信息发布/订阅）
 │   ├── 02_service_custom_srv        # 任务五-2：服务 + 自定义服务接口（斐波那契）
 │   └── 03_action_custom_action      # 任务五-3：动作 + 自定义动作接口（斐波那契）
-├── task6
+├── 进阶task
 │   ├── ros2
-│   │   ├── 01_static_tf             # 任务六-1：发布静态 TF 并在 RViz 展示
-│   │   └── 02_dynamic_tf            # 任务六-2：link1 绕 base_link 旋转
+│   │   ├── 01_static_tf             # 进阶-1：发布静态 TF 并在 RViz 展示
+│   │   └── 02_dynamic_tf            # 进阶-2：link1 绕 base_link 旋转
 │   ├── opencv
-│   │   └── 01_light_bar             # 任务六-3：灯条轮廓、4 点坐标与中心
+│   │   └── 01_light_bar             # 进阶-3：灯条轮廓、4 点坐标与中心
 │   └── nn
-│       └── 01_digit_cnn             # 任务六-4：CNN 手写数字实时识别
+│       └── 01_digit_cnn             # 进阶-4：CNN 手写数字实时识别
 └── docs                             # 任务要求与仓库结构参考图
 ```
 
@@ -56,10 +56,10 @@ RMtask
 | 任务五-1 | 自定义消息（物品 ID + 基本信息），发布者发布、订阅者接收并打印 | [task5/01_topic_custom_msg](./task5/01_topic_custom_msg/README.md) |
 | 任务五-2 | 自定义服务接口，服务端与客户端交替输出斐波那契数列（10 项） | [task5/02_service_custom_srv](./task5/02_service_custom_srv/README.md) |
 | 任务五-3 | 自定义动作接口，动作服务端反馈进度并返回最终序列 | [task5/03_action_custom_action](./task5/03_action_custom_action/README.md) |
-| 任务六-1 | ROS2 进阶：发布静态 TF，`map` / `base_link` / `target_point` 在 RViz 中展示 | [task6/ros2/01_static_tf](./task6/ros2/01_static_tf/README.md) |
-| 任务六-2 | ROS2 进阶：发布动态 TF，`base_link` 固定、`link1` 绕其旋转 | [task6/ros2/02_dynamic_tf](./task6/ros2/02_dynamic_tf/README.md) |
-| 任务六-3 | OpenCV 进阶：灯条轮廓、4 个端点坐标与中心位置计算 | [task6/opencv/01_light_bar](./task6/opencv/01_light_bar/README.md) |
-| 任务六-4 | 神经网络进阶：PyTorch 手写 CNN，摄像头端到端实时识别 | [task6/nn/01_digit_cnn](./task6/nn/01_digit_cnn/README.md) |
+| 进阶-1 | ROS2 进阶：发布静态 TF，`map` / `base_link` / `target_point` 在 RViz 中展示 | [进阶task/ros2/01_static_tf](./进阶task/ros2/01_static_tf/README.md) |
+| 进阶-2 | ROS2 进阶：发布动态 TF，`base_link` 固定、`link1` 绕其旋转 | [进阶task/ros2/02_dynamic_tf](./进阶task/ros2/02_dynamic_tf/README.md) |
+| 进阶-3 | OpenCV 进阶：灯条轮廓、4 个端点坐标与中心位置计算 | [进阶task/opencv/01_light_bar](./进阶task/opencv/01_light_bar/README.md) |
+| 进阶-4 | 神经网络进阶：PyTorch 手写 CNN，摄像头端到端实时识别 | [进阶task/nn/01_digit_cnn](./进阶task/nn/01_digit_cnn/README.md) |
 
 ## 参考
 

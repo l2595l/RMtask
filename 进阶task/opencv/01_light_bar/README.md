@@ -1,6 +1,6 @@
-# task6 / opencv / 01_light_bar
+# 进阶task / opencv / 01_light_bar
 
-第六次任务 OpenCV 第 2 项：灯条图像的轮廓提取、端点坐标输出与中心计算。
+进阶任务 OpenCV 第 2 项：灯条图像的轮廓提取、端点坐标输出与中心计算。
 
 ## 要求
 

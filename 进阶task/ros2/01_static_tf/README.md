@@ -1,6 +1,6 @@
-# task6 / ros2 / 01_static_tf
+# 进阶task / ros2 / 01_static_tf
 
-第六次任务 ROS2 第 1 项：发布**静态 TF**，并在 RViz 中展示。
+进阶任务 ROS2 第 1 项：发布**静态 TF**，并在 RViz 中展示。
 
 ## 要求
 

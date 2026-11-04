@@ -1,6 +1,6 @@
-# task6 / ros2 / 02_dynamic_tf
+# 进阶task / ros2 / 02_dynamic_tf
 
-第六次任务 ROS2 第 2 项：发布**动态 TF**，`base_link` 不动，`link1` 绕 `base_link` 一直旋转。
+进阶任务 ROS2 第 2 项：发布**动态 TF**，`base_link` 不动，`link1` 绕 `base_link` 一直旋转。
 
 ## 要求
 

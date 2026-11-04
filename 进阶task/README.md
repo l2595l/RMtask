@@ -1,6 +1,6 @@
-# task6
+# 进阶task
 
-第六次任务：进阶部分 —— ROS2 的 **TF 坐标变换**、OpenCV **图像处理**、PyTorch **卷积神经网络**。
+进阶任务：ROS2 的 **TF 坐标变换**、OpenCV **图像处理**、PyTorch **卷积神经网络**。
 
 | 子目录 | 对应要求 | 截图 |
 | --- | --- | --- |
@@ -11,4 +11,4 @@
 
 三个方向分别在两套环境里完成：TF 部分沿用《ROS2 机器人开发》配套代码 `Yuros_ros2bookcode/chapt6` 与自建的 `tf_demo_ws` 工作空间；图像处理与神经网络部分使用 Python + OpenCV + PyTorch 实现，结果通过 OpenCV 窗口实时显示，截图即窗口画面。
 
-要求原文见 [docs/task6_requirements_ros2.png](../docs/task6_requirements_ros2.png) 与 [docs/task6_requirements_opencv_nn.png](../docs/task6_requirements_opencv_nn.png)。
+要求原文见 [docs/进阶task_requirements_ros2.png](../docs/进阶task_requirements_ros2.png) 与 [docs/进阶task_requirements_opencv_nn.png](../docs/进阶task_requirements_opencv_nn.png)。
