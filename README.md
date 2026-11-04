@@ -35,6 +35,8 @@ RMtask
 │   ├── 02_service_custom_srv        # 任务五-2：服务 + 自定义服务接口（斐波那契）
 │   └── 03_action_custom_action      # 任务五-3：动作 + 自定义动作接口（斐波那契）
 ├── 进阶task
+│   ├── requirements_ros2.png        # 进阶任务要求（ros2 进阶）
+│   ├── requirements_opencv_nn.png   # 进阶任务要求（opencv / 神经网络进阶）
 │   ├── ros2
 │   │   ├── 01_static_tf             # 进阶-1：发布静态 TF 并在 RViz 展示
 │   │   └── 02_dynamic_tf            # 进阶-2：link1 绕 base_link 旋转
@@ -42,7 +44,8 @@ RMtask
 │   │   └── 01_light_bar             # 进阶-3：灯条轮廓、4 点坐标与中心
 │   └── nn
 │       └── 01_digit_cnn             # 进阶-4：CNN 手写数字实时识别
-└── docs                             # 任务要求与仓库结构参考图
+├── task_requirements.png            # 任务一至五的要求与 ddl 截图
+└── repo_structure.png               # 要求的仓库目录结构
 ```
 
 ## 任务索引
@@ -63,5 +66,5 @@ RMtask
 
 ## 参考
 
-- [任务清单截图](./docs/task_requirements.png)
-- [仓库目录结构要求](./docs/repo_structure.png)
+- [任务清单截图](./task_requirements.png)
+- [仓库目录结构要求](./repo_structure.png)
