@@ -63,8 +63,3 @@ RMtask
 | 进阶-2 | ROS2 进阶：发布动态 TF，`base_link` 固定、`link1` 绕其旋转 | [进阶task/ros2/02_dynamic_tf](./进阶task/ros2/02_dynamic_tf/README.md) |
 | 进阶-3 | OpenCV 进阶：灯条轮廓、4 个端点坐标与中心位置计算 | [进阶task/opencv/01_light_bar](./进阶task/opencv/01_light_bar/README.md) |
 | 进阶-4 | 神经网络进阶：PyTorch 手写 CNN，摄像头端到端实时识别 | [进阶task/nn/01_digit_cnn](./进阶task/nn/01_digit_cnn/README.md) |
-
-## 参考
-
-- [任务清单截图](./task_requirements.png)
-- [仓库目录结构要求](./repo_structure.png)
